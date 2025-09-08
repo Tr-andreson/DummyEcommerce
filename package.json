@@ -8,8 +8,7 @@
     "start": "NODE_ENV=production bun src/index.tsx",
     "build": "bun run build.ts",
     "test": "vitest",
-    "test:coverage": "vitest --coverage",
-    "prepare": "husky"
+    "test:coverage": "vitest --coverage"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
@@ -41,6 +40,7 @@
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^5.0.2",
     "@vitest/coverage-v8": "^3.2.4",
+    "bun": "^1.2.21",
     "husky": "^9.1.7",
     "jsdom": "^26.1.0",
     "storybook": "^9.1.2",
