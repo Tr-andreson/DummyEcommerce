@@ -7,6 +7,7 @@ describe("Home Page testing", () => {
     render(<HomePage />)
 
     const heading = screen.getByRole("heading")
+    // const heading = screen.getByRole("")
     expect(heading).toBeInTheDocument();
   })
 })
