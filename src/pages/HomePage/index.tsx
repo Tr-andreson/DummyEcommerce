@@ -4,7 +4,7 @@ import { Suspense } from "react"
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="custom-container">
       <h4>Home Page</h4>
       <Suspense fallback={<ProductSkeleton />}>
         <Products />
