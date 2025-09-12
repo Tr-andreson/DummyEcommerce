@@ -23,7 +23,7 @@ export const Products = () => {
   if (!data) return <ProductSkeleton />
 
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
       {data.products.map((_) => {
         return (
           <ProductCard key={_.id} product={_} />

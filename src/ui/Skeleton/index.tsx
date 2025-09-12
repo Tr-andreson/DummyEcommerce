@@ -12,7 +12,7 @@ export const ProductSkeleton = () => {
   )
 }
 
-const CardSkeleton = () => {
+export const CardSkeleton = () => {
   return (
     <div className="flex flex-col space-y-3">
       <Skeleton className="h-[400px] rounded-xl" />

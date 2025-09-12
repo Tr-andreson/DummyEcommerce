@@ -167,3 +167,11 @@
 }
 }
 
+.contain {
+  @apply container mx-auto
+}
+
+.custom-container {
+  @apply container mx-auto mt-10 p-4
+
+}
